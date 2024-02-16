@@ -1,0 +1,92 @@
+{
+  "github": {
+    "user": "gamer2810",
+    "repo": "learning-vault",
+    "branch": "main",
+    "automaticallyMergePR": true,
+    "dryRun": {
+      "enable": false,
+      "folderName": "github-publisher"
+    },
+    "tokenPath": "%configDir%/plugins/%pluginID%/env",
+    "api": {
+      "tiersForApi": "Github Free/Pro/Team (default)",
+      "hostname": ""
+    },
+    "workflow": {
+      "commitMessage": "[PUBLISHER] Merge",
+      "name": ""
+    },
+    "otherRepo": [],
+    "verifiedRepo": true,
+    "rateLimit": 4982
+  },
+  "upload": {
+    "behavior": "obsidian",
+    "defaultName": "docs",
+    "rootFolder": "",
+    "yamlFolderKey": "",
+    "frontmatterTitle": {
+      "enable": false,
+      "key": "title"
+    },
+    "replaceTitle": [],
+    "replacePath": [],
+    "autoclean": {
+      "enable": false,
+      "excluded": []
+    },
+    "folderNote": {
+      "enable": true,
+      "rename": "index.md",
+      "addTitle": {
+        "enable": false,
+        "key": "title"
+      }
+    },
+    "metadataExtractorPath": ""
+  },
+  "conversion": {
+    "hardbreak": false,
+    "dataview": true,
+    "censorText": [],
+    "tags": {
+      "inline": false,
+      "exclude": [],
+      "fields": []
+    },
+    "links": {
+      "internal": true,
+      "unshared": false,
+      "wiki": false,
+      "slugify": "disable"
+    }
+  },
+  "embed": {
+    "attachments": true,
+    "overrideAttachments": [],
+    "keySendFile": [],
+    "notes": false,
+    "folder": "/docs/assets/img",
+    "convertEmbedToLinks": "keep",
+    "charConvert": "->"
+  },
+  "plugin": {
+    "shareKey": "share",
+    "fileMenu": true,
+    "editorMenu": true,
+    "excludedFolder": [],
+    "copyLink": {
+      "enable": false,
+      "links": "",
+      "removePart": [],
+      "addCmd": false
+    },
+    "noticeError": false,
+    "displayModalRepoEditing": false,
+    "setFrontmatterKey": "Set",
+    "migrated": true,
+    "dev": false
+  },
+  "tabsID": "upload-configuration"
+}
